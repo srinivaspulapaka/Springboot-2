@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mongoChangeLog>
+    <changeSet changeId="ChangeSet-11" author="pctl">
+        <script>
+            db.stud.drop();
+            db.stud.insert( {
+
+            "_id" : ObjectId("58b51e0fa71e9e85beeeedc5"),
+            "name" : "mahesh",
+            "age" : "26"
+            })
+
+        </script>
+    </changeSet>
+    </mongoChangeLog>
