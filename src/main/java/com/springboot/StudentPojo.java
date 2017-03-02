@@ -1,5 +1,6 @@
 package com.springboot;
 
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.io.Serializable;
@@ -10,6 +11,7 @@ import java.io.Serializable;
 
 @Document(collection="student")
 public class StudentPojo implements Serializable{
+    @Id
     private int id;
 
     private String name;

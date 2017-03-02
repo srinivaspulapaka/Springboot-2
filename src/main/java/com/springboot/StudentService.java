@@ -23,7 +23,13 @@ public class StudentService {
 
         return repository.findAll();
     }
-/*public StudentPojo saveStudent(StudentPojo pojo){
+public StudentPojo saveStudent(StudentPojo pojo){
     return repository.save(pojo);
-}*/
+}
+    public List<StudentPojo> findStudentsByName(String name){
+
+
+        return repository.findStudentsByName(name);
+    }
+
 }

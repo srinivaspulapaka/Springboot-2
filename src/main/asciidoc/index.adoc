@@ -1,0 +1,81 @@
+include::intro.adoc[]
+
+
+
+
+
+
+
+
+[[resources]]
+= Resources
+
+[[resources-notification]]
+== Notification
+The Notification resource is used to list.
+include::{snippets}/list-notification/response-fields.adoc[]
+[[resources-Notification-Request]]
+=== Notification request
+Notification Request
+include::{snippets}/list-notification/curl-request.adoc[]
+[[resources-Notification-Response]]
+=== Notification Response
+Notification Response
+include::{snippets}/list-notification/http-response.adoc[]
+
+
+
+[[resources]]
+= EmailNotification
+
+[[resources-notification/email]]
+== Notification
+The Notification resource is used to list.
+include::{snippets}/list-emailnotification/response-fields.adoc[]
+[[resources-EmailNotification-Request]]
+=== EmailNotification request
+EmailNotification Request
+include::{snippets}/list-emailnotification/curl-request.adoc[]
+[[resources-Notification-Response]]
+=== EmailNotification Response
+EmailNotification Response
+include::{snippets}/list-emailnotification/http-response.adoc[]
+
+
+
+
+[[resources]]
+= MessageNotification
+
+[[resources-notification/message]]
+== Notification
+The Notification resource is used to list.
+include::{snippets}/list-messagenotification/response-fields.adoc[]
+[[resources-MessageNotification-Request]]
+=== MessageNotification request
+MessageNotification Request
+include::{snippets}/list-messagenotification/curl-request.adoc[]
+[[resources-MessageNotification-Response]]
+=== MessageNotification Response
+MessageNotification Response
+include::{snippets}/list-messagenotification/http-response.adoc[]
+
+
+
+
+[[resources]]
+= InvalidNotificationType
+
+[[resources-notification/messagedfs]]
+== Notification
+The Notification resource is used to list.
+include::{snippets}/list-notificationinvalid/response-fields.adoc[]
+[[resources-notificationinvalid-Request]]
+=== NotificationInvalid request
+NotificationInvalid Request
+include::{snippets}/list-notificationinvalid/curl-request.adoc[]
+[[resources-NotificationInvalid-Response]]
+=== NotificationInvalid Response
+NotificationInvalid Response
+include::{snippets}/list-notificationinvalid/http-response.adoc[]
+
